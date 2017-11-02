@@ -1,0 +1,8 @@
+---
+
+- include_vars: "/src/{{ item }}"
+  with_items: "{{ vars_files }}"
+  when: vars_files is defined and vars_files
+
+- include_tasks: "/src/{{ item }}"
+  with_items: "{{ task_files }}"

@@ -1,0 +1,23 @@
+galaxy_info:
+  author: marcusianlevine
+  description: Utility role to run arbitrary one-off tasks not worthy of their own role
+  company: CKM Advisors
+
+  license: BSD
+
+  min_ansible_container_version: 0.9.0
+
+  #
+  # platforms is a list of platforms, and each platform has a name and a list of versions.
+  #
+  platforms:
+  - name: Fedora
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+
+  galaxy_tags:
+    - container
+    - utility
